@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css" />
+  </head>
+  <body>
+    <div id="container">
+      <p id="welcome">pls login</p>
+      <form id="login">
+        <input type="text" placeholder="username" id="username" />
+        <input type="text" placeholder="pasword" id="pasword" />
+        <input type="submit" id="submit" />
+      </form>
+    </div>
+    <div id="main" class="main">
+      <div id="current_Balance">
+        <h2>current Balance :</h2>
+        <h3 id="balance"></h3>
+      </div>
+      <div class="now" style="display: flex; padding: 10px; gap: 3px">
+        <h3>Date Time:</h3>
+        <h3 class="date"></h3>
+      </div>
+      <button id="sort">sotr</button>
+      <div id="moovements">
+        
+      </div>
+      <div class="states">
+        <div class="income">
+          <h3>incomes :</h3>
+          <h3 id="income"></h3>
+        </div>
+        <div class="outcome">
+          <h3>outcomes :</h3>
+          <h3 id="outcome"></h3>
+        </div>
+        <div class="intrest">
+          <h3>intrests :</h3>
+          <h3 id="interest"></h3>
+        </div>
+      </div>
+      <form id="transfer" class="trasfer">
+        <input type="text" placeholder="To" id="to" />
+        <input type="text" placeholder="transferamount" id="transferamount" />
+        <button type="submit" id="transfer_submit">Transfer</button>
+      </form>
+      <form id="loansubmit" class="loan">
+        <input id="amountloan" type="text" placeholder="amount" />
+        <button type="submit" id="loan">Get Loan</button>
+      </form>
+      <form class="delete" id="deleted">
+        <input type="text" placeholder="pin" id="deleteacount"/>
+        <button type="submit" id="delete">D Account</button>
+      </form>
+    </div>
+    <script src="js.js"></script>
+  </body>
+</html>

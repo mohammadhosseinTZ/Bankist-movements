@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px;
+    background-color: cadetblue;
+}
+.main{
+    opacity: 0;
+}
+#main #moovements #moovement{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: cadetblue;
+    border-radius: 5px;
+    padding: 20px 10px 50px;
+    color: white;
+    
+}
+#main #moovements #moovement #moovId{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 5px;
+}
+#main #sort{
+    width: 30%;
+    margin: 10px;
+    background-color: blue;
+    color: white;
+}
+#main #current_Balance{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+#main .states{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+#main .states .income{
+    display: flex;
+    color: green;
+}
+#main .states .outcome{
+    display: flex;
+    color: red;
+}
+#main .states .intrest{
+    display: flex;
+    color: rgb(212, 212, 144);
+}
+#main .trasfer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    background-color:green ;
+    padding: 14px;
+    border-radius: 4px;
+}
+#main .loan{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    background-color: rgb(212, 212, 144) ;
+    padding: 14px;
+    border-radius: 4px;
+}
+#main .delete{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    background-color:red ;
+    padding: 14px;
+    border-radius: 4px;
+}
+#main #transfer_submit,#loan,#delete{
+    width: 240px;
+}
+.red{
+    background-color: red !important;
+}
+.blue{
+    background-color: blue !important;
+}
