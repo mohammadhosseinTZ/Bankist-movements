@@ -1,4 +1,4 @@
-#This is a Bankist-movements website
+# This is a Bankist-movements website
 
-#Demo
+# Demo
 https://mohammadhosseintz.github.io/Bankist-movements/
